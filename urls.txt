@@ -1,0 +1,7 @@
+http://api.jquery.com/jquery.getjson/
+https://www.sitepoint.com/ajaxjquery-getjson-simple-example/
+https://blog.openalfa.com/como-leer-ficheros-json-en-javascript
+http://www.cristalab.com/tutoriales/leer-json-con-javascript-y-php-c104372l/
+https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON
+https://www.youtube.com/watch?v=j-S5MBs4y0Q
+https://www.youtube.com/watch?v=rJesac0_Ftw
