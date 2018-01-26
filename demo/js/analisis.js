@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$('#btnSumar').click(function(){
 		var resultado = parseFloat($('#txtPrimerNum').val()) + parseFloat($('#txtSegundoNum').val()); 
-		//$('#txtResultado').val(resultado);
+		$('#txtResultado').val(resultado);
 
 
 		var Gs = [23.4, 34.5, 12];
