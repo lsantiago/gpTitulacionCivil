@@ -1,0 +1,114 @@
+[
+    {
+        "descripccion": "Pórticos especiales sismo resistentes, de hormigón armado con vigas descolgadas y con muros estructurales de hormigón armado o con diagonales rigidizadoras (sistemas duales).",
+        "grupo": "COEFICIENTE \"R\"",
+        "id": "1",
+        "tipo": "Ductiles",
+        "valor": "8.0"
+    },
+    {
+        "descripccion": "Pórticos especiales sismo resistentes de acero laminado en caliente, sea con diagonales rigidizadoras (excéntricas o concéntricas) o con muros estructurales de hormigon armado.",
+        "grupo": "COEFICIENTE \"R\"",
+        "id": "2",
+        "tipo": "Ductiles",
+        "valor": "8.0"
+    },
+    {
+        "descripccion": "Pórticos con con columnas de hormigón armado y vigas de acero laminado en caliente con diagonales ridigizadoras (excéntricas o concéntricas).",
+        "grupo": "COEFICIENTE \"R\"",
+        "id": "3",
+        "tipo": "Ductiles",
+        "valor": "8.0"
+    },
+    {
+        "descripccion": "Pórticos especiales sismo resistentes, de hormigón armado con vigas banda, con muros estructurales de hormigón armado o con diagonales ridigizadoras.",
+        "grupo": "COEFICIENTE \"R\"",
+        "id": "4",
+        "tipo": "Ductiles",
+        "valor": "7.0"
+    },
+    {
+        "descripccion": "Pórticos especiales sismo resistentes, de hormigón armado con vigas descolgadas.",
+        "grupo": "Pórticos resistentes a momentos",
+        "id": "5",
+        "tipo": "Ductiles",
+        "valor": "8.0"
+    },
+    {
+        "descripccion": "Pórticos especiales sismo resistentes , de acero laminado en caliente o con elementos armados de placas",
+        "grupo": "Pórticos resistentes a momentos",
+        "id": "6",
+        "tipo": "Ductiles",
+        "valor": "8.0"
+    },
+    {
+        "descripccion": "Pórticos con columnas de hormigón armado y vigas de acero laminado en caliente",
+        "grupo": "Pórticos resistentes a momentos",
+        "id": "7",
+        "tipo": "Ductiles",
+        "valor": "8.0"
+    },
+    {
+        "descripccion": "Sistemas de muros estructurales dúctiles de hormigón armado",
+        "grupo": "Otros sistemas estructurales para edificaciones",
+        "id": "8",
+        "tipo": "Ductiles",
+        "valor": "5.0"
+    },
+    {
+        "descripccion": "Pórticos especiales sismo resistente de hormigón armado con vigas banda",
+        "grupo": "Otros sistemas estructurales para edificaciones",
+        "id": "9",
+        "tipo": "Ductiles",
+        "valor": "5.0"
+    },
+    {
+        "descripccion": "Hormigón armado con secciones de dimensión menor a la especificada en la NEC-SE-HM limitados a viviendas de hasta 2 pisos con luces de hasta 5 metros",
+        "grupo": "Pórticos resistentes a momento",
+        "id": "10",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "3.0"
+    },
+    {
+        "descripccion": "Hormigón armado con secciones de dimensión menor a la especificada en la NEC-SE-HM con armadura electrosoldada de alta resistencia.",
+        "grupo": "Pórticos resistentes a momento",
+        "id": "11",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "2.5"
+    },
+    {
+        "descripccion": "Estructuras de acero conformado en frio, aluminio, madera, limitados a 2 pisos.",
+        "grupo": "Pórticos resistentes a momento",
+        "id": "12",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "2.5"
+    },
+    {
+        "descripccion": "Mamposteria no reforzada, limitada a un piso",
+        "grupo": "Muros estructurales portantes",
+        "id": "13",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "1.0"
+    },
+    {
+        "descripccion": "Mamposteria reforzada, limitada a dos pisos",
+        "grupo": "Muros estructurales portantes",
+        "id": "14",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "3.0"
+    },
+    {
+        "descripccion": "Mamposteria confinada, limitada a dos pisos",
+        "grupo": "Muros estructurales portantes",
+        "id": "15",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "3.0"
+    },
+    {
+        "descripccion": "Muros de hormigón armado, limitados a cuatro pisos",
+        "grupo": "Muros estructurales portantes",
+        "id": "16",
+        "tipo": "Ductibilidad Limitada",
+        "valor": "3.0"
+    }
+]

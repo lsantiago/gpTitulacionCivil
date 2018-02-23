@@ -46,7 +46,7 @@ function startFirebase(){
 	  // accedo al servicio de trabajo con la base de datos en tiempo real
 	  var databaseService = firebase.database();
 
-	  var ref = databaseService.ref('items');
+	  var ref = databaseService.ref();
 	  var data = null;
 
 	  ref.once("value", function(snapshot) {
@@ -54,7 +54,7 @@ function startFirebase(){
 			showDatos(data);
 	  });
 
-	  
+
 
 }
 
@@ -62,7 +62,7 @@ function showDatos(datos){
 	nroDatos = datos.length;
 
 	for(i = 0; i < nroDatos; i++){
-		console.log(datos[i].key);
+		console.log(datos[i].valor);
 	}  	
 }
 
@@ -72,10 +72,13 @@ function cargarJSON(){
 
 	var showData = $('#show-data');
 
-	$.getJSON('./data/db.json', function (data) {
-		console.log(data);
+	$.getJSON('./data/CoeficienteR.json', function (data) {
+		//console.log(data);
 
-		var items = data.items.map(function (item) {
+		console.log(data[data.length-1].id)
+		
+
+		/*var items = data.items.map(function (item) {
 			return item.key + ': ' + item.value;
 		});
 
@@ -85,7 +88,7 @@ function cargarJSON(){
 			var content = '<li>' + items.join('</li><li>') + '</li>';
 			var list = $('<ul />').html(content);
 			showData.append(list);
-		}
+		}*/
 	});
 }
 
