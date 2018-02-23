@@ -18,22 +18,53 @@ $(document).ready(function(){
 
 	$('#get-data').click(function () {
 		//cargarJSON();
-		loadBinaryFile('data/vlee.sqlite', function(data){
-			console.log("Loading database...");
-			var db = new SQL.Database(data);
 
-			var res = db.exec("SELECT id FROM Factor WHERE id=1");
-			document.getElementById("res").textContent = JSON.stringify(res);
+		startFirebase();
+		
 
-			valor = JSON.parse(JSON.stringify(res));
-			console.log(valor);
+		/*loadBinaryFile('data/vlee.sqlite', function(data){
+		console.log("Loading database...");
+		var db = new SQL.Database(data);
+
+		var res = db.exec("SELECT id FROM Factor WHERE id=1");
+		document.getElementById("res").textContent = JSON.stringify(res);
+
+		valor = JSON.parse(JSON.stringify(res));
+		console.log(valor);
 			
-			//console.log(parseFloat(valor[0].values[0]) +2);
-		});
+		//console.log(parseFloat(valor[0].values[0]) +2);
+		});*/
 	});
 
 
 });
+
+
+function startFirebase(){
+	firebase.initializeApp(config);
+
+	  // accedo al servicio de trabajo con la base de datos en tiempo real
+	  var databaseService = firebase.database();
+
+	  var ref = databaseService.ref('items');
+	  var data = null;
+
+	  ref.once("value", function(snapshot) {
+			data = snapshot.val();
+			showDatos(data);
+	  });
+
+	  
+
+}
+
+function showDatos(datos){
+	nroDatos = datos.length;
+
+	for(i = 0; i < nroDatos; i++){
+		console.log(datos[i].key);
+	}  	
+}
 
 
 function cargarJSON(){
